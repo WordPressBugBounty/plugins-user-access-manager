@@ -1,17 +1,4 @@
 <?php
-/**
- * BaseControllerTrait.php
- *
- * The BaseControllerTrait trait file.
- *
- * PHP versions 5
- *
- * @author    Alexander Schneider <alexanderschneider85@gmail.com>
- * @copyright 2008-2017 Alexander Schneider
- * @license   http://www.gnu.org/licenses/gpl-2.0.html  GNU General Public License, version 2
- * @version   SVN: $id$
- * @link      http://wordpress.org/extend/plugins/user-access-manager/
- */
 
 declare(strict_types=1);
 
@@ -21,43 +8,18 @@ use Exception;
 use UserAccessManager\Config\WordpressConfig;
 use UserAccessManager\Wrapper\Php;
 
-/**
- * Trait BaseControllerTrait
- *
- * @package UserAccessManager\Controller
- */
 trait BaseControllerTrait
 {
-    /**
-     * @return Php
-     */
     abstract protected function getPhp(): Php;
-
-    /**
-     * @return WordpressConfig
-     */
     abstract protected function getWordpressConfig(): WordpressConfig;
+    protected ?string $template = null;
 
-    /**
-     * @var string
-     */
-    protected $template = null;
-
-    /**
-     * Returns the current request url.
-     * @return string
-     */
     public function getRequestUrl(): string
     {
-        return htmlentities($_SERVER['REQUEST_URI']);
+        return htmlentities($_SERVER['REQUEST_URI'], ENT_NOQUOTES);
     }
 
-    /**
-     * Sanitize the given value.
-     * @param mixed $value
-     * @return array|string
-     */
-    private function sanitizeValue($value)
+    private function sanitizeValue(mixed $value): mixed
     {
         if (is_object($value) === true) {
             return $value;
@@ -71,21 +33,15 @@ trait BaseControllerTrait
 
             $value = $newValue;
         } elseif (is_string($value) === true) {
-            $value = preg_replace('/[\\\\]+(["|\'])/', '$1', $value);
+            $value = preg_replace('/\\+(["|\'])/', '$1', $value);
             $value = stripslashes($value);
-            $value = htmlspecialchars($value);
+            $value = htmlspecialchars($value, ENT_NOQUOTES);
         }
 
         return $value;
     }
 
-    /**
-     * Returns the request parameter.
-     * @param string $name
-     * @param mixed $default
-     * @return mixed
-     */
-    public function getRequestParameter(string $name, $default = null)
+    public function getRequestParameter(string $name, mixed $default = null): mixed
     {
         $return = (isset($_POST[$name]) === true) ? $this->sanitizeValue($_POST[$name]) : null;
 
@@ -96,11 +52,6 @@ trait BaseControllerTrait
         return $return;
     }
 
-    /**
-     * Returns the content of the excluded php file.
-     * @param string $fileName The view file name
-     * @return string
-     */
     protected function getIncludeContents(string $fileName): string
     {
         $contents = '';
@@ -116,7 +67,7 @@ trait BaseControllerTrait
                 $contents = ob_get_contents();
                 ob_end_clean();
             } catch (Exception $exception) {
-                $contents = "Error on including content '{$fileWithPath}': {$exception->getMessage()}";
+                $contents = "Error on including content '$fileWithPath': {$exception->getMessage()}";
                 ob_end_clean();
             }
         }
@@ -124,10 +75,7 @@ trait BaseControllerTrait
         return $contents;
     }
 
-    /**
-     * Renders the given template
-     */
-    public function render()
+    public function render(): void
     {
         if ($this->template !== null) {
             echo $this->getIncludeContents($this->template);
