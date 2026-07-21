@@ -1,8 +1,8 @@
 <?php return array(
     'root' => array(
         'name' => 'gmalex/user-access-manager',
-        'pretty_version' => '2.3.13',
-        'version' => '2.3.13.0',
+        'pretty_version' => '2.3.14',
+        'version' => '2.3.14.0',
         'reference' => null,
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
@@ -11,8 +11,8 @@
     ),
     'versions' => array(
         'gmalex/user-access-manager' => array(
-            'pretty_version' => '2.3.13',
-            'version' => '2.3.13.0',
+            'pretty_version' => '2.3.14',
+            'version' => '2.3.14.0',
             'reference' => null,
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
