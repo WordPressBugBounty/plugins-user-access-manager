@@ -1,52 +1,57 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the user-access-manager package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
+# Copyright (C) 2026 Alexander Schneider
+# This file is distributed under the same license as the User Access Manager plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: user-access-manager 2.3.15\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-07-27 09:01+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Project-Id-Version: User Access Manager 2.3.16\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/user-access-manager\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-07-30T16:15:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.12.0\n"
+"X-Domain: user-access-manager\n"
 
-#: src/Wrapper/Wordpress.php:850
-msgid "M j, Y @ H:i"
+#. Plugin Name of the plugin
+#: user-access-manager.php:3
+msgid "User Access Manager"
 msgstr ""
 
-#. //www.gnu.org/licenses/gpl-2.0.html  GNU General Public License, version 2
-#. * @version   SVN: $Id$
-#. * @link      http://wordpress.org/extend/plugins/user-access-manager/
-#.
-#. --- Error Messages ---
+#. Plugin URI of the plugin
+#: user-access-manager.php:4
+msgid "https://wordpress.org/plugins/user-access-manager/"
+msgstr ""
+
+#. Description of the plugin
+#: user-access-manager.php:9
+msgid "Manage the access to your posts, pages, categories and files."
+msgstr ""
+
+#. Author of the plugin
+#: user-access-manager.php:8
+msgid "Alexander Schneider"
+msgstr ""
+
+#. Author URI of the plugin
+#: user-access-manager.php:5
+msgid "https://twitter.com/GM_Alex"
+msgstr ""
+
 #: includes/language.php:17
 #, php-format
-msgid ""
-"Sorry you need at least PHP version 7.2 to use the User Access Manager. Your "
-"current PHP version is %s. See <a href=\"https://github.com/GM-Alex/user-"
-"access-manager/wiki/Troubleshoot\">https://github.com/GM-Alex/user-access-"
-"manager/wiki/Troubleshoot</a> for more information."
+msgid "Sorry you need at least PHP version 7.2 to use the User Access Manager. Your current PHP version is %s. See <a href=\"https://github.com/GM-Alex/user-access-manager/wiki/Troubleshoot\">https://github.com/GM-Alex/user-access-manager/wiki/Troubleshoot</a> for more information."
 msgstr ""
 
 #: includes/language.php:18
 #, php-format
-msgid ""
-"Sorry you need at least WordPress version 3.0 to use the User Access "
-"Manager. Your current WordPress version is %s."
+msgid "Sorry you need at least WordPress version 3.0 to use the User Access Manager. Your current WordPress version is %s."
 msgstr ""
 
 #: includes/language.php:20
 #, php-format
-msgid ""
-"Please update the database of the User Access Manager. <a href=\"%s\">Click "
-"here to proceed</a>"
+msgid "Please update the database of the User Access Manager. <a href=\"%s\">Click here to proceed</a>"
 msgstr ""
 
 #: includes/language.php:21
@@ -58,7 +63,9 @@ msgstr ""
 msgid "Sorry, you are not allowed to access this content."
 msgstr ""
 
-#: includes/language.php:25 includes/language.php:96 includes/language.php:100
+#: includes/language.php:25
+#: includes/language.php:96
+#: includes/language.php:100
 msgid "All"
 msgstr ""
 
@@ -86,11 +93,13 @@ msgstr ""
 msgid "Settings"
 msgstr ""
 
-#: includes/language.php:35 includes/language.php:86
+#: includes/language.php:35
+#: includes/language.php:86
 msgid "Default"
 msgstr ""
 
-#: includes/language.php:38 includes/language.php:132
+#: includes/language.php:38
+#: includes/language.php:132
 msgid "Object type"
 msgstr ""
 
@@ -123,28 +132,25 @@ msgid "Hide title"
 msgstr ""
 
 #: includes/language.php:46
-msgid ""
-"Selecting \"Yes\" will show the text which is defined at \"Title\" if user "
-"has no access."
+msgid "Selecting \"Yes\" will show the text which is defined at \"Title\" if user has no access."
 msgstr ""
 
 #: includes/language.php:47
 msgid "Content"
 msgstr ""
 
-#: includes/language.php:48 includes/language.php:68
+#: includes/language.php:48
+#: includes/language.php:68
 #, php-format
-msgid ""
-"Content displayed if user has no access. You can add a login-form by adding "
-"the keyword <strong>[LOGIN_FORM]</strong>. This form will be shown on single "
-"%s, otherwise a link will be shown."
+msgid "Content displayed if user has no access. You can add a login-form by adding the keyword <strong>[LOGIN_FORM]</strong>. This form will be shown on single %s, otherwise a link will be shown."
 msgstr ""
 
 #: includes/language.php:49
 msgid "Hide complete"
 msgstr ""
 
-#: includes/language.php:50 includes/language.php:70
+#: includes/language.php:50
+#: includes/language.php:70
 #, php-format
 msgid "Selecting \"Yes\" will hide %s if the user has no access."
 msgstr ""
@@ -161,11 +167,10 @@ msgstr ""
 msgid "Hide comments"
 msgstr ""
 
-#: includes/language.php:54 includes/language.php:74
+#: includes/language.php:54
+#: includes/language.php:74
 #, php-format
-msgid ""
-"Selecting \"Yes\" will show the text which is defined at \"%s comment text\" "
-"if user has no access."
+msgid "Selecting \"Yes\" will show the text which is defined at \"%s comment text\" if user has no access."
 msgstr ""
 
 #: includes/language.php:55
@@ -182,10 +187,7 @@ msgstr ""
 
 #: includes/language.php:58
 #, php-format
-msgid ""
-"Shows the content before the &lt;!--more--&gt; tag and after that the "
-"defined text at \"%s content\". If no &lt;!--more--&gt; is set the defined "
-"text at \"%s content\" will be shown."
+msgid "Shows the content before the &lt;!--more--&gt; tag and after that the defined text at \"%s content\". If no &lt;!--more--&gt; is set the defined text at \"%s content\" will be shown."
 msgstr ""
 
 #: includes/language.php:59
@@ -224,9 +226,7 @@ msgstr ""
 
 #: includes/language.php:66
 #, php-format
-msgid ""
-"Selecting \"Yes\" will show the text which is defined at \"%s title\" if "
-"user has no access."
+msgid "Selecting \"Yes\" will show the text which is defined at \"%s title\" if user has no access."
 msgstr ""
 
 #: includes/language.php:67
@@ -271,10 +271,7 @@ msgstr ""
 
 #: includes/language.php:78
 #, php-format
-msgid ""
-"Shows the %s content before the &lt;!--more--&gt; tag and after that the "
-"defined text at \"%s content\". If no &lt;!--more--&gt; is set the defined "
-"text at \"%s content\" will shown."
+msgid "Shows the %s content before the &lt;!--more--&gt; tag and after that the defined text at \"%s content\". If no &lt;!--more--&gt; is set the defined text at \"%s content\" will shown."
 msgstr ""
 
 #: includes/language.php:81
@@ -297,7 +294,8 @@ msgstr ""
 msgid "If you choose \"Custom\", please specify the full path to your image."
 msgstr ""
 
-#: includes/language.php:87 includes/language.php:97
+#: includes/language.php:87
+#: includes/language.php:97
 msgid "Custom"
 msgstr ""
 
@@ -314,20 +312,11 @@ msgid "Custom file handling file"
 msgstr ""
 
 #: includes/language.php:91
-msgid ""
-"Edit this content if you are using the custom file handling file setting."
+msgid "Edit this content if you are using the custom file handling file setting."
 msgstr ""
 
 #: includes/language.php:92
-msgid ""
-"If you select \"Yes\" all files will locked by a .htaccess file and only "
-"users with access can download files. <br/><strong style=\"color:red;"
-"\">Note: If you activate this option the plugin will overwrite a '.htaccess' "
-"file at the upload folder, if you use already one to protect your files. "
-"Also if you have no permalinks activated your upload dir will protect by a '."
-"htaccess' with a random password and all old media files insert in a "
-"previous post/page will not work anymore. You have to update your posts/"
-"pages (not necessary if you have permalinks activated).</strong>"
+msgid "If you select \"Yes\" all files will locked by a .htaccess file and only users with access can download files. <br/><strong style=\"color:red;\">Note: If you activate this option the plugin will overwrite a '.htaccess' file at the upload folder, if you use already one to protect your files. Also if you have no permalinks activated your upload dir will protect by a '.htaccess' with a random password and all old media files insert in a previous post/page will not work anymore. You have to update your posts/pages (not necessary if you have permalinks activated).</strong>"
 msgstr ""
 
 #: includes/language.php:93
@@ -335,10 +324,7 @@ msgid "Locked directory type"
 msgstr ""
 
 #: includes/language.php:94
-msgid ""
-"\"WordPress\" will only lock files handled by the WordPress media manager "
-"(recommended), \"All\" will lock all files at the upload directory, "
-"\"Custom\" will use a custom string."
+msgid "\"WordPress\" will only lock files handled by the WordPress media manager (recommended), \"All\" will lock all files at the upload directory, \"Custom\" will use a custom string."
 msgstr ""
 
 #: includes/language.php:95
@@ -350,10 +336,7 @@ msgid "Locked file types"
 msgstr ""
 
 #: includes/language.php:99
-msgid ""
-"Lock all files, type in file types which you will lock if the post/page is "
-"locked or define file types which will not be locked. <strong>Note:</strong> "
-"If you have no problems use all to get the maximum security."
+msgid "Lock all files, type in file types which you will lock if the post/page is locked or define file types which will not be locked. <strong>Note:</strong> If you have no problems use all to get the maximum security."
 msgstr ""
 
 #: includes/language.php:101
@@ -369,9 +352,7 @@ msgid ".htaccess password"
 msgstr ""
 
 #: includes/language.php:104
-msgid ""
-"Set up the password for the .htaccess access. This password is only needed "
-"if you need a direct access to your files."
+msgid "Set up the password for the .htaccess access. This password is only needed if you need a direct access to your files."
 msgstr ""
 
 #: includes/language.php:105
@@ -387,9 +368,7 @@ msgid "Download type"
 msgstr ""
 
 #: includes/language.php:108
-msgid ""
-"Selecting the type for downloading. <strong>Note:</strong> For using fopen "
-"you need \"safe_mode = off\"."
+msgid "Selecting the type for downloading. <strong>Note:</strong> For using fopen you need \"safe_mode = off\"."
 msgstr ""
 
 #: includes/language.php:109
@@ -397,9 +376,7 @@ msgid "Inline file types"
 msgstr ""
 
 #: includes/language.php:110
-msgid ""
-"These files (comma separated) will be shown within the browser window and "
-"not downloaded (images are always inline)."
+msgid "These files (comma separated) will be shown within the browser window and not downloaded (images are always inline)."
 msgstr ""
 
 #: includes/language.php:111
@@ -431,9 +408,7 @@ msgid "Authors always has access to own posts/pages"
 msgstr ""
 
 #: includes/language.php:120
-msgid ""
-"If \"Yes\" is selected author will always have full access to their own "
-"posts or pages."
+msgid "If \"Yes\" is selected author will always have full access to their own posts or pages."
 msgstr ""
 
 #: includes/language.php:121
@@ -441,9 +416,7 @@ msgid "Authors can add content to their own groups"
 msgstr ""
 
 #: includes/language.php:122
-msgid ""
-"If \"Yes\" is selected author are able to restrict the content by adding it "
-"to their groups."
+msgid "If \"Yes\" is selected author are able to restrict the content by adding it to their groups."
 msgstr ""
 
 #: includes/language.php:123
@@ -487,9 +460,7 @@ msgid "Hide empty"
 msgstr ""
 
 #: includes/language.php:136
-msgid ""
-"Selecting \"Yes\" will hide empty taxonomies which are containing only empty "
-"childes or no childes."
+msgid "Selecting \"Yes\" will hide empty taxonomies which are containing only empty childes or no childes."
 msgstr ""
 
 #: includes/language.php:137
@@ -499,9 +470,7 @@ msgstr ""
 
 #: includes/language.php:138
 #, php-format
-msgid ""
-"Selecting \"Yes\" will hide empty %s which are containing only empty childes "
-"or no childes."
+msgid "Selecting \"Yes\" will hide empty %s which are containing only empty childes or no childes."
 msgstr ""
 
 #: includes/language.php:141
@@ -565,9 +534,7 @@ msgid "Redis cache"
 msgstr ""
 
 #: includes/language.php:156
-msgid ""
-"This cache uses the WordPress object cache API with a persistent Redis "
-"backend."
+msgid "This cache uses the WordPress object cache API with a persistent Redis backend."
 msgstr ""
 
 #: includes/language.php:157
@@ -635,10 +602,7 @@ msgid "Append requested URL to the redirect"
 msgstr ""
 
 #: includes/language.php:175
-msgid ""
-"Selecting \"Yes\" will append the originally requested URL as "
-"\"redirect_to\" parameter to the redirect URL, so that a custom login page "
-"can send the user back to it after the login."
+msgid "Selecting \"Yes\" will append the originally requested URL as \"redirect_to\" parameter to the redirect URL, so that a custom login page can send the user back to it after the login."
 msgstr ""
 
 #: includes/language.php:176
@@ -646,10 +610,7 @@ msgid "Lock recursive"
 msgstr ""
 
 #: includes/language.php:177
-msgid ""
-"Selecting \"Yes\" will lock all child posts/pages of a post/page if a user "
-"has no access to the parent page. Note: Setting this option to \"No\" could "
-"result in display errors relating to the hierarchy."
+msgid "Selecting \"Yes\" will lock all child posts/pages of a post/page if a user has no access to the parent page. Note: Setting this option to \"No\" could result in display errors relating to the hierarchy."
 msgstr ""
 
 #: includes/language.php:178
@@ -666,10 +627,7 @@ msgstr ""
 
 #: includes/language.php:181
 #, php-format
-msgid ""
-"Selecting \"Yes\" will show the defined text at \"%s\" behind the post/page "
-"to a logged in admin to show him which posts/pages are locked if he visits "
-"his blog."
+msgid "Selecting \"Yes\" will show the defined text at \"%s\" behind the post/page to a logged in admin to show him which posts/pages are locked if he visits his blog."
 msgstr ""
 
 #: includes/language.php:182
@@ -693,9 +651,7 @@ msgid "Extra IP header"
 msgstr ""
 
 #: includes/language.php:187
-msgid ""
-"Use this header for the user IP address if you are using a proxy. A valid "
-"value is for example HTTP_X_REAL_IP."
+msgid "Use this header for the user IP address if you are using a proxy. A valid value is for example HTTP_X_REAL_IP."
 msgstr ""
 
 #: includes/language.php:190
@@ -738,11 +694,13 @@ msgstr ""
 msgid "Description"
 msgstr ""
 
-#: includes/language.php:205 includes/language.php:218
+#: includes/language.php:205
+#: includes/language.php:218
 msgid "Read access"
 msgstr ""
 
-#: includes/language.php:206 includes/language.php:220
+#: includes/language.php:206
+#: includes/language.php:220
 msgid "Write access"
 msgstr ""
 
@@ -782,16 +740,13 @@ msgstr ""
 msgid "The description of the group."
 msgstr ""
 
-#: includes/language.php:216 includes/language.php:226
+#: includes/language.php:216
+#: includes/language.php:226
 msgid "IP range"
 msgstr ""
 
 #: includes/language.php:217
-msgid ""
-"Type in the IP ranges of users which are join these groups by their IP "
-"address without login. Set ranges like \"BEGIN\"-\"END\", separate ranges by "
-"using \";\", single IPs are also allowed. Example: "
-"192.168.0.1-192.168.0.10;192.168.0.20-192.168.0.30"
+msgid "Type in the IP ranges of users which are join these groups by their IP address without login. Set ranges like \"BEGIN\"-\"END\", separate ranges by using \";\", single IPs are also allowed. Example: 192.168.0.1-192.168.0.10;192.168.0.20-192.168.0.30"
 msgstr ""
 
 #: includes/language.php:219
@@ -859,9 +814,7 @@ msgid "Type 'reset' in the input field to reset the User Access Manager."
 msgstr ""
 
 #: includes/language.php:240
-msgid ""
-"Warning: The reset of the User Access Manager can not be undone. All "
-"settings and user groups will permanently lost."
+msgid "Warning: The reset of the User Access Manager can not be undone. All settings and user groups will permanently lost."
 msgstr ""
 
 #: includes/language.php:241
@@ -873,9 +826,7 @@ msgid "Update User Access Manager database"
 msgstr ""
 
 #: includes/language.php:243
-msgid ""
-"Updates the database of the User Access Manager. Please backup your database "
-"before you perform the update."
+msgid "Updates the database of the User Access Manager. Please backup your database before you perform the update."
 msgstr ""
 
 #: includes/language.php:244
@@ -923,15 +874,11 @@ msgid "Database repair successfull"
 msgstr ""
 
 #: includes/language.php:255
-msgid ""
-"<b style=\"color:red;\">Your UAM database seems broken. You should try to "
-"repair it.</b>"
+msgid "<b style=\"color:red;\">Your UAM database seems broken. You should try to repair it.</b>"
 msgstr ""
 
 #: includes/language.php:256
-msgid ""
-"<b style=\"color:green;\">Your UAM database seems to be in good condition.</"
-"b>"
+msgid "<b style=\"color:green;\">Your UAM database seems to be in good condition.</b>"
 msgstr ""
 
 #: includes/language.php:257
@@ -939,10 +886,7 @@ msgid "Revert the database"
 msgstr ""
 
 #: includes/language.php:258
-msgid ""
-"Choose a backup to revert the database to this user access manager database "
-"version. <b>Note: The user access manager database version differs from the "
-"user access manager version.</b>"
+msgid "Choose a backup to revert the database to this user access manager database version. <b>Note: The user access manager database version differs from the user access manager version.</b>"
 msgstr ""
 
 #: includes/language.php:259
@@ -982,10 +926,7 @@ msgid "Help me to improve the plugin"
 msgstr ""
 
 #: includes/language.php:273
-msgid ""
-"Send me bug reports, bug fixes, pull requests or your ideas. See: <a "
-"href=\"https://github.com/GM-Alex/user-access-manager\">https://github.com/"
-"GM-Alex/user-access-manager</a>"
+msgid "Send me bug reports, bug fixes, pull requests or your ideas. See: <a href=\"https://github.com/GM-Alex/user-access-manager\">https://github.com/GM-Alex/user-access-manager</a>"
 msgstr ""
 
 #: includes/language.php:274
@@ -993,11 +934,7 @@ msgid "Create a translation of the plugin"
 msgstr ""
 
 #: includes/language.php:275
-msgid ""
-"Give other users more comfort help me to translate it to all languages. See: "
-"<a href=\"https://translate.wordpress.org/projects/wp-plugins/user-access-"
-"manager\">https://translate.wordpress.org/projects/wp-plugins/user-access-"
-"manager</a>"
+msgid "Give other users more comfort help me to translate it to all languages. See: <a href=\"https://translate.wordpress.org/projects/wp-plugins/user-access-manager\">https://translate.wordpress.org/projects/wp-plugins/user-access-manager</a>"
 msgstr ""
 
 #: includes/language.php:276
@@ -1013,8 +950,7 @@ msgid "Spread the word"
 msgstr ""
 
 #: includes/language.php:279
-msgid ""
-"Write about the plugin and place a link to the plugin in your blog/website."
+msgid "Write about the plugin and place a link to the plugin in your blog/website."
 msgstr ""
 
 #: includes/language.php:282
@@ -1063,8 +999,7 @@ msgid "Member of %s other user groups"
 msgstr ""
 
 #: includes/language.php:299
-msgid ""
-"<strong>Note:</strong> An administrator has always access to all posts/pages."
+msgid "<strong>Note:</strong> An administrator has always access to all posts/pages."
 msgstr ""
 
 #: includes/language.php:300
@@ -1116,11 +1051,13 @@ msgstr ""
 msgid "Assigned groups"
 msgstr ""
 
-#: includes/language.php:314 includes/language.php:348
+#: includes/language.php:314
+#: includes/language.php:348
 msgid "Role"
 msgstr ""
 
-#: includes/language.php:315 includes/language.php:347
+#: includes/language.php:315
+#: includes/language.php:347
 msgid "User"
 msgstr ""
 
@@ -1185,11 +1122,13 @@ msgstr ""
 msgid "Setup time based group assignment"
 msgstr ""
 
-#: includes/language.php:340 includes/language.php:342
+#: includes/language.php:340
+#: includes/language.php:342
 msgid "From"
 msgstr ""
 
-#: includes/language.php:341 includes/language.php:343
+#: includes/language.php:341
+#: includes/language.php:343
 msgid "To"
 msgstr ""
 
@@ -1214,12 +1153,7 @@ msgid "Get User Access Manager Pro!"
 msgstr ""
 
 #: includes/language.php:358
-msgid ""
-"You want all the features? Guess what? You are already using the Pro "
-"version, because there is none. So it would be nice if you support me and "
-"become a supporter at steady, <b>especially if you use the plugin on a "
-"commercial site</b>. This will keep me motivated to do the support and spend "
-"my free time for the plugin. ;)"
+msgid "You want all the features? Guess what? You are already using the Pro version, because there is none. So it would be nice if you support me and become a supporter at steady, <b>especially if you use the plugin on a commercial site</b>. This will keep me motivated to do the support and spend my free time for the plugin. ;)"
 msgstr ""
 
 #: includes/language.php:359
@@ -1227,8 +1161,5 @@ msgid "Need help?"
 msgstr ""
 
 #: includes/language.php:360
-msgid ""
-"You got stuck using the User access manager? See <a href=\"https://github."
-"com/GM-Alex/user-access-manager/wiki\">https://github.com/GM-Alex/user-"
-"access-manager/wiki</a>"
+msgid "You got stuck using the User access manager? See <a href=\"https://github.com/GM-Alex/user-access-manager/wiki\">https://github.com/GM-Alex/user-access-manager/wiki</a>"
 msgstr ""
