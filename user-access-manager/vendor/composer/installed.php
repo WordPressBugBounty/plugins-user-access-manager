@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'gmalex/user-access-manager',
-        'pretty_version' => '2.3.16',
-        'version' => '2.3.16.0',
-        'reference' => '8e099ef1bcd7ca2183cec8bdf0e750389aaba100',
+        'pretty_version' => '2.3.17',
+        'version' => '2.3.17.0',
+        'reference' => 'bc3f58541784a1e209d7abca79ae3fb2c18f5359',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,9 +11,9 @@
     ),
     'versions' => array(
         'gmalex/user-access-manager' => array(
-            'pretty_version' => '2.3.16',
-            'version' => '2.3.16.0',
-            'reference' => '8e099ef1bcd7ca2183cec8bdf0e750389aaba100',
+            'pretty_version' => '2.3.17',
+            'version' => '2.3.17.0',
+            'reference' => 'bc3f58541784a1e209d7abca79ae3fb2c18f5359',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
