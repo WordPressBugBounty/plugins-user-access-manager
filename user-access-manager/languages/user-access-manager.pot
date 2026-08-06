@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the User Access Manager plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: User Access Manager 2.3.17\n"
+"Project-Id-Version: User Access Manager 2.3.18\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/user-access-manager\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-07-31T13:23:50+00:00\n"
+"POT-Creation-Date: 2026-08-06T11:09:04+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: user-access-manager\n"
@@ -64,8 +64,8 @@ msgid "Sorry, you are not allowed to access this content."
 msgstr ""
 
 #: includes/language.php:25
-#: includes/language.php:96
-#: includes/language.php:100
+#: includes/language.php:97
+#: includes/language.php:101
 msgid "All"
 msgstr ""
 
@@ -94,1072 +94,1120 @@ msgid "Settings"
 msgstr ""
 
 #: includes/language.php:35
-#: includes/language.php:86
+#: includes/language.php:87
 msgid "Default"
 msgstr ""
 
 #: includes/language.php:38
-#: includes/language.php:132
+#: includes/language.php:133
 msgid "Object type"
 msgstr ""
 
 #: includes/language.php:39
-msgid "Post type settings"
+msgid "Choose which post type the settings below apply to. Each post type is configured separately."
 msgstr ""
 
 #: includes/language.php:40
-msgid "Taxonomies settings"
+msgid "Post type settings"
 msgstr ""
 
 #: includes/language.php:41
-msgid "Default settings"
+msgid "Taxonomies settings"
 msgstr ""
 
 #: includes/language.php:42
-msgid "Set up the behaviour if the object is locked"
+msgid "Default settings"
 msgstr ""
 
 #: includes/language.php:43
-msgid "Title"
+msgid "Set up the behaviour if the object is locked"
 msgstr ""
 
 #: includes/language.php:44
-msgid "Displayed text as title if user has no access"
+msgid "Title"
 msgstr ""
 
 #: includes/language.php:45
-msgid "Hide title"
+msgid "Displayed text as title if user has no access"
 msgstr ""
 
 #: includes/language.php:46
-msgid "Selecting \"Yes\" will show the text which is defined at \"Title\" if user has no access."
+msgid "Hide title"
 msgstr ""
 
 #: includes/language.php:47
-msgid "Content"
+msgid "Selecting \"Yes\" will show the text which is defined at \"Title\" if user has no access."
 msgstr ""
 
 #: includes/language.php:48
-#: includes/language.php:68
+msgid "Content"
+msgstr ""
+
+#: includes/language.php:49
+#: includes/language.php:69
 #, php-format
 msgid "Content displayed if user has no access. You can add a login-form by adding the keyword <strong>[LOGIN_FORM]</strong>. This form will be shown on single %s, otherwise a link will be shown."
 msgstr ""
 
-#: includes/language.php:49
+#: includes/language.php:50
 msgid "Hide complete"
 msgstr ""
 
-#: includes/language.php:50
-#: includes/language.php:70
+#: includes/language.php:51
+#: includes/language.php:71
 #, php-format
 msgid "Selecting \"Yes\" will hide %s if the user has no access."
 msgstr ""
 
-#: includes/language.php:51
+#: includes/language.php:52
 msgid "Comment text"
 msgstr ""
 
-#: includes/language.php:52
+#: includes/language.php:53
 msgid "Displayed text as comment text if user has no access"
 msgstr ""
 
-#: includes/language.php:53
+#: includes/language.php:54
 msgid "Hide comments"
 msgstr ""
 
-#: includes/language.php:54
-#: includes/language.php:74
+#: includes/language.php:55
+#: includes/language.php:75
 #, php-format
 msgid "Selecting \"Yes\" will show the text which is defined at \"%s comment text\" if user has no access."
 msgstr ""
 
-#: includes/language.php:55
+#: includes/language.php:56
 msgid "Lock comments"
 msgstr ""
 
-#: includes/language.php:56
+#: includes/language.php:57
 msgid "Selecting \"yes\" allows users to comment even if the content is locked"
 msgstr ""
 
-#: includes/language.php:57
-msgid "Show content before &lt;!--more--&gt; tag"
-msgstr ""
-
 #: includes/language.php:58
-#, php-format
-msgid "Shows the content before the &lt;!--more--&gt; tag and after that the defined text at \"%s content\". If no &lt;!--more--&gt; is set the defined text at \"%s content\" will be shown."
+msgid "Show content before &lt;!--more--&gt; tag"
 msgstr ""
 
 #: includes/language.php:59
 #, php-format
-msgid "Use default settings for %s"
+msgid "Shows the content before the &lt;!--more--&gt; tag and after that the defined text at \"%s content\". If no &lt;!--more--&gt; is set the defined text at \"%s content\" will be shown."
 msgstr ""
 
 #: includes/language.php:60
-msgid "If selected the settings form the default type will be used."
+#, php-format
+msgid "Use default settings for %s"
 msgstr ""
 
 #: includes/language.php:61
-#, php-format
-msgid "%s settings"
+msgid "If selected the settings form the default type will be used."
 msgstr ""
 
 #: includes/language.php:62
 #, php-format
-msgid "Set up the behaviour if the %s is locked"
+msgid "%s settings"
 msgstr ""
 
 #: includes/language.php:63
 #, php-format
-msgid "%s title"
+msgid "Set up the behaviour if the %s is locked"
 msgstr ""
 
 #: includes/language.php:64
 #, php-format
-msgid "Displayed text as %s title if user has no access"
+msgid "%s title"
 msgstr ""
 
 #: includes/language.php:65
 #, php-format
-msgid "Hide %s title"
+msgid "Displayed text as %s title if user has no access"
 msgstr ""
 
 #: includes/language.php:66
 #, php-format
-msgid "Selecting \"Yes\" will show the text which is defined at \"%s title\" if user has no access."
+msgid "Hide %s title"
 msgstr ""
 
 #: includes/language.php:67
 #, php-format
+msgid "Selecting \"Yes\" will show the text which is defined at \"%s title\" if user has no access."
+msgstr ""
+
+#: includes/language.php:68
+#, php-format
 msgid "%s content"
 msgstr ""
 
-#: includes/language.php:69
+#: includes/language.php:70
 #, php-format
 msgid "Hide complete %s"
 msgstr ""
 
-#: includes/language.php:71
+#: includes/language.php:72
 #, php-format
 msgid "%s comment text"
 msgstr ""
 
-#: includes/language.php:72
+#: includes/language.php:73
 #, php-format
 msgid "Displayed text as %s comment text if user has no access"
 msgstr ""
 
-#: includes/language.php:73
+#: includes/language.php:74
 #, php-format
 msgid "Hide %s comments"
 msgstr ""
 
-#: includes/language.php:75
+#: includes/language.php:76
 #, php-format
 msgid "Lock %s comments"
 msgstr ""
 
-#: includes/language.php:76
+#: includes/language.php:77
 #, php-format
 msgid "Selecting \"yes\" also locks comments on locked %s"
 msgstr ""
 
-#: includes/language.php:77
+#: includes/language.php:78
 #, php-format
 msgid "Show %s content before &lt;!--more--&gt; tag"
 msgstr ""
 
-#: includes/language.php:78
+#: includes/language.php:79
 #, php-format
 msgid "Shows the %s content before the &lt;!--more--&gt; tag and after that the defined text at \"%s content\". If no &lt;!--more--&gt; is set the defined text at \"%s content\" will shown."
 msgstr ""
 
-#: includes/language.php:81
+#: includes/language.php:82
 msgid "File settings"
 msgstr ""
 
-#: includes/language.php:82
+#: includes/language.php:83
 msgid "Set up the behaviour of files"
 msgstr ""
 
-#: includes/language.php:83
+#: includes/language.php:84
 msgid "Lock files"
 msgstr ""
 
-#: includes/language.php:84
+#: includes/language.php:85
 msgid "No access image type"
 msgstr ""
 
-#: includes/language.php:85
+#: includes/language.php:86
 msgid "If you choose \"Custom\", please specify the full path to your image."
 msgstr ""
 
-#: includes/language.php:87
-#: includes/language.php:97
+#: includes/language.php:88
+#: includes/language.php:98
 msgid "Custom"
 msgstr ""
 
-#: includes/language.php:88
+#: includes/language.php:89
 msgid "Use custom file handling file"
 msgstr ""
 
-#: includes/language.php:89
+#: includes/language.php:90
 msgid "Selecting \"Yes\" will allow you to use your own config file."
 msgstr ""
 
-#: includes/language.php:90
+#: includes/language.php:91
 msgid "Custom file handling file"
 msgstr ""
 
-#: includes/language.php:91
+#: includes/language.php:92
 msgid "Edit this content if you are using the custom file handling file setting."
 msgstr ""
 
-#: includes/language.php:92
-msgid "If you select \"Yes\" all files will locked by a .htaccess file and only users with access can download files. <br/><strong style=\"color:red;\">Note: If you activate this option the plugin will overwrite a '.htaccess' file at the upload folder, if you use already one to protect your files. Also if you have no permalinks activated your upload dir will protect by a '.htaccess' with a random password and all old media files insert in a previous post/page will not work anymore. You have to update your posts/pages (not necessary if you have permalinks activated).</strong>"
-msgstr ""
-
 #: includes/language.php:93
-msgid "Locked directory type"
+msgid "If you select \"Yes\" all files will locked by a .htaccess file and only users with access can download files. <br/><strong class=\"uam_note\">Note: If you activate this option the plugin will overwrite a '.htaccess' file at the upload folder, if you use already one to protect your files. Also if you have no permalinks activated your upload dir will protect by a '.htaccess' with a random password and all old media files insert in a previous post/page will not work anymore. You have to update your posts/pages (not necessary if you have permalinks activated).</strong>"
 msgstr ""
 
 #: includes/language.php:94
-msgid "\"WordPress\" will only lock files handled by the WordPress media manager (recommended), \"All\" will lock all files at the upload directory, \"Custom\" will use a custom string."
+msgid "Locked directory type"
 msgstr ""
 
 #: includes/language.php:95
+msgid "\"WordPress\" will only lock files handled by the WordPress media manager (recommended), \"All\" will lock all files at the upload directory, \"Custom\" will use a custom string."
+msgstr ""
+
+#: includes/language.php:96
 msgid "WordPress"
 msgstr ""
 
-#: includes/language.php:98
+#: includes/language.php:99
 msgid "Locked file types"
 msgstr ""
 
-#: includes/language.php:99
+#: includes/language.php:100
 msgid "Lock all files, type in file types which you will lock if the post/page is locked or define file types which will not be locked. <strong>Note:</strong> If you have no problems use all to get the maximum security."
 msgstr ""
 
-#: includes/language.php:101
+#: includes/language.php:102
 msgid "File types to lock: "
 msgstr ""
 
-#: includes/language.php:102
+#: includes/language.php:103
 msgid "File types not to lock: "
 msgstr ""
 
-#: includes/language.php:103
+#: includes/language.php:104
 msgid ".htaccess password"
 msgstr ""
 
-#: includes/language.php:104
+#: includes/language.php:105
 msgid "Set up the password for the .htaccess access. This password is only needed if you need a direct access to your files."
 msgstr ""
 
-#: includes/language.php:105
+#: includes/language.php:106
 msgid "Use a random generated password."
 msgstr ""
 
-#: includes/language.php:106
+#: includes/language.php:107
 msgid "Use the password of the current logged in admin."
 msgstr ""
 
-#: includes/language.php:107
+#: includes/language.php:108
 msgid "Download type"
 msgstr ""
 
-#: includes/language.php:108
+#: includes/language.php:109
 msgid "Selecting the type for downloading. <strong>Note:</strong> For using fopen you need \"safe_mode = off\"."
 msgstr ""
 
-#: includes/language.php:109
+#: includes/language.php:110
 msgid "Inline file types"
 msgstr ""
 
-#: includes/language.php:110
+#: includes/language.php:111
 msgid "These files (comma separated) will be shown within the browser window and not downloaded (images are always inline)."
 msgstr ""
 
-#: includes/language.php:111
+#: includes/language.php:112
 msgid "Normal"
 msgstr ""
 
-#: includes/language.php:112
+#: includes/language.php:113
 msgid "fopen"
 msgstr ""
 
-#: includes/language.php:113
+#: includes/language.php:114
 msgid "XSendfile"
 msgstr ""
 
-#: includes/language.php:114
+#: includes/language.php:115
 msgid "X-Accel-Redirect"
 msgstr ""
 
-#: includes/language.php:117
+#: includes/language.php:118
 msgid "Authors settings"
 msgstr ""
 
-#: includes/language.php:118
+#: includes/language.php:119
 msgid "Here you will find the settings for authors"
 msgstr ""
 
-#: includes/language.php:119
+#: includes/language.php:120
 msgid "Authors always has access to own posts/pages"
 msgstr ""
 
-#: includes/language.php:120
+#: includes/language.php:121
 msgid "If \"Yes\" is selected author will always have full access to their own posts or pages."
 msgstr ""
 
-#: includes/language.php:121
+#: includes/language.php:122
 msgid "Authors can add content to their own groups"
 msgstr ""
 
-#: includes/language.php:122
+#: includes/language.php:123
 msgid "If \"Yes\" is selected author are able to restrict the content by adding it to their groups."
 msgstr ""
 
-#: includes/language.php:123
+#: includes/language.php:124
 msgid "Minimum user role with full access"
 msgstr ""
 
-#: includes/language.php:124
+#: includes/language.php:125
 msgid "All user with a role equal or higher to this has full access."
 msgstr ""
 
-#: includes/language.php:125
+#: includes/language.php:126
 msgid "Administrator"
 msgstr ""
 
-#: includes/language.php:126
+#: includes/language.php:127
 msgid "Editor"
 msgstr ""
 
-#: includes/language.php:127
+#: includes/language.php:128
 msgid "Author"
 msgstr ""
 
-#: includes/language.php:128
+#: includes/language.php:129
 msgid "Contributor"
 msgstr ""
 
-#: includes/language.php:129
+#: includes/language.php:130
 msgid "Subscriber"
 msgstr ""
 
-#: includes/language.php:133
-msgid "Taxonomy settings"
-msgstr ""
-
 #: includes/language.php:134
-msgid "Set up the behaviour if a taxonomy is locked"
+msgid "Choose which taxonomy the settings below apply to. Each taxonomy is configured separately."
 msgstr ""
 
 #: includes/language.php:135
-msgid "Hide empty"
+msgid "Taxonomy settings"
 msgstr ""
 
 #: includes/language.php:136
-msgid "Selecting \"Yes\" will hide empty taxonomies which are containing only empty childes or no childes."
+msgid "Set up the behaviour if a taxonomy is locked"
 msgstr ""
 
 #: includes/language.php:137
+msgid "Hide empty"
+msgstr ""
+
+#: includes/language.php:138
+msgid "Selecting \"Yes\" will hide empty taxonomies which are containing only empty childes or no childes."
+msgstr ""
+
+#: includes/language.php:139
 #, php-format
 msgid "Hide empty %s"
 msgstr ""
 
-#: includes/language.php:138
+#: includes/language.php:140
 #, php-format
 msgid "Selecting \"Yes\" will hide empty %s which are containing only empty childes or no childes."
 msgstr ""
 
-#: includes/language.php:141
+#: includes/language.php:143
 msgid "Active caching method"
 msgstr ""
 
-#: includes/language.php:142
-msgid "Cache settings"
-msgstr ""
-
-#: includes/language.php:143
-msgid "Cache deactivated"
-msgstr ""
-
 #: includes/language.php:144
-msgid "The cache is currently deactivated."
+msgid "Selects the caching method the plugin uses. Changing it takes effect immediately, the settings below belong to the selected method."
 msgstr ""
 
 #: includes/language.php:145
-msgid "File system cache"
+msgid "Cache settings"
 msgstr ""
 
 #: includes/language.php:146
-msgid "This cache uses the file system for the cache."
+msgid "Cache deactivated"
 msgstr ""
 
 #: includes/language.php:147
-msgid "Path"
+msgid "The cache is currently deactivated."
 msgstr ""
 
 #: includes/language.php:148
-msgid "File system path to store the cache files."
+msgid "File system cache"
 msgstr ""
 
 #: includes/language.php:149
-msgid "Method"
+msgid "This cache uses the file system for the cache."
 msgstr ""
 
 #: includes/language.php:150
-msgid "The caching method which should be used."
+msgid "Path"
 msgstr ""
 
 #: includes/language.php:151
-msgid "PHP serialize"
+msgid "File system path to store the cache files."
 msgstr ""
 
 #: includes/language.php:152
-msgid "PHP igbinary (igbinary required)"
+msgid "Method"
 msgstr ""
 
 #: includes/language.php:153
-msgid "Json"
+msgid "The caching method which should be used."
 msgstr ""
 
 #: includes/language.php:154
-msgid "PHP var_export"
+msgid "PHP serialize"
 msgstr ""
 
 #: includes/language.php:155
-msgid "Redis cache"
+msgid "PHP igbinary (igbinary required)"
 msgstr ""
 
 #: includes/language.php:156
-msgid "This cache uses the WordPress object cache API with a persistent Redis backend."
+msgid "Json"
 msgstr ""
 
 #: includes/language.php:157
-msgid "Key prefix"
+msgid "PHP var_export"
 msgstr ""
 
 #: includes/language.php:158
-msgid "Prefix added to every cache key to avoid collisions with other plugins."
+msgid "Redis cache"
 msgstr ""
 
 #: includes/language.php:159
-msgid "TTL (seconds)"
+msgid "This cache uses the WordPress object cache API with a persistent Redis backend."
 msgstr ""
 
 #: includes/language.php:160
-msgid "Cache entry expiration time in seconds. Use 0 for no expiration."
+msgid "Key prefix"
+msgstr ""
+
+#: includes/language.php:161
+msgid "Prefix added to every cache key to avoid collisions with other plugins."
+msgstr ""
+
+#: includes/language.php:162
+msgid "TTL (seconds)"
 msgstr ""
 
 #: includes/language.php:163
-msgid "Other settings"
-msgstr ""
-
-#: includes/language.php:164
-msgid "Here you will find all other settings"
-msgstr ""
-
-#: includes/language.php:165
-msgid "Protect Feed"
+msgid "Cache entry expiration time in seconds. Use 0 for no expiration."
 msgstr ""
 
 #: includes/language.php:166
-msgid "Selecting \"Yes\" will also protect your feed entries."
+msgid "Other settings"
 msgstr ""
 
 #: includes/language.php:167
-msgid "Redirect user"
+msgid "Here you will find all other settings"
 msgstr ""
 
 #: includes/language.php:168
-msgid "Setup what happen if a user visit a post/page with no access."
+msgid "Protect Feed"
 msgstr ""
 
 #: includes/language.php:169
-msgid "To blog start page"
+msgid "Selecting \"Yes\" will also protect your feed entries."
 msgstr ""
 
 #: includes/language.php:170
-msgid "To login page (wp-admin)"
+msgid "Redirect user"
 msgstr ""
 
 #: includes/language.php:171
-msgid "Custom page: "
+msgid "Setup what happen if a user visit a post/page with no access."
 msgstr ""
 
 #: includes/language.php:172
-msgid "Custom URL: "
+msgid "To blog start page"
 msgstr ""
 
 #: includes/language.php:173
-msgid "To origin page (the page the user came from)"
+msgid "To login page (wp-admin)"
 msgstr ""
 
 #: includes/language.php:174
-msgid "Append requested URL to the redirect"
+msgid "Custom page: "
 msgstr ""
 
 #: includes/language.php:175
-msgid "Selecting \"Yes\" will append the originally requested URL as \"redirect_to\" parameter to the redirect URL, so that a custom login page can send the user back to it after the login."
+msgid "Custom URL: "
 msgstr ""
 
 #: includes/language.php:176
-msgid "Lock recursive"
+msgid "To origin page (the page the user came from)"
 msgstr ""
 
 #: includes/language.php:177
-msgid "Selecting \"Yes\" will lock all child posts/pages of a post/page if a user has no access to the parent page. Note: Setting this option to \"No\" could result in display errors relating to the hierarchy."
+msgid "Append requested URL to the redirect"
 msgstr ""
 
 #: includes/language.php:178
-msgid "Admin hint text"
+msgid "Selecting \"Yes\" will append the originally requested URL as \"redirect_to\" parameter to the redirect URL, so that a custom login page can send the user back to it after the login."
 msgstr ""
 
 #: includes/language.php:179
-msgid "The text which will shown behind the post/page."
+msgid "Lock recursive"
 msgstr ""
 
 #: includes/language.php:180
-msgid "Show admin hint at Posts"
+msgid "Selecting \"Yes\" will lock all child posts/pages of a post/page if a user has no access to the parent page. Note: Setting this option to \"No\" could result in display errors relating to the hierarchy."
 msgstr ""
 
 #: includes/language.php:181
+msgid "Admin hint text"
+msgstr ""
+
+#: includes/language.php:182
+msgid "The text which will shown behind the post/page."
+msgstr ""
+
+#: includes/language.php:183
+msgid "Show admin hint at Posts"
+msgstr ""
+
+#: includes/language.php:184
 #, php-format
 msgid "Selecting \"Yes\" will show the defined text at \"%s\" behind the post/page to a logged in admin to show him which posts/pages are locked if he visits his blog."
 msgstr ""
 
-#: includes/language.php:182
+#: includes/language.php:185
 msgid "Show assigned groups"
 msgstr ""
 
-#: includes/language.php:183
+#: includes/language.php:186
 msgid "Show assigned groups next to the edit link"
 msgstr ""
 
-#: includes/language.php:184
+#: includes/language.php:187
 msgid "Hide edit link on no access"
 msgstr ""
 
-#: includes/language.php:185
+#: includes/language.php:188
 msgid "Hides the edit link if the user has no write access."
 msgstr ""
 
-#: includes/language.php:186
+#: includes/language.php:189
 msgid "Extra IP header"
 msgstr ""
 
-#: includes/language.php:187
+#: includes/language.php:190
 msgid "Use this header for the user IP address if you are using a proxy. A valid value is for example HTTP_X_REAL_IP."
 msgstr ""
 
-#: includes/language.php:190
+#: includes/language.php:193
 msgid "No rights!"
 msgstr ""
 
-#: includes/language.php:191
+#: includes/language.php:194
 msgid "Sorry you have no rights to view this entry!"
 msgstr ""
 
-#: includes/language.php:192
+#: includes/language.php:195
 msgid "Sorry no rights to view comments!"
 msgstr ""
 
-#: includes/language.php:195
+#: includes/language.php:198
 msgid "Update settings"
 msgstr ""
 
-#: includes/language.php:196
+#: includes/language.php:199
 msgid "Settings updated."
 msgstr ""
 
-#: includes/language.php:200
+#: includes/language.php:203
 msgid "Manage user groups"
 msgstr ""
 
-#: includes/language.php:201
+#: includes/language.php:204
 msgid "User groups"
 msgstr ""
 
-#: includes/language.php:202
+#: includes/language.php:205
 msgid "Role affiliation"
 msgstr ""
 
-#: includes/language.php:203
-msgid "Name"
-msgstr ""
-
-#: includes/language.php:204
-msgid "Description"
-msgstr ""
-
-#: includes/language.php:205
-#: includes/language.php:218
-msgid "Read access"
-msgstr ""
-
 #: includes/language.php:206
-#: includes/language.php:220
-msgid "Write access"
+msgid "Every user with one of the selected roles automatically belongs to this group, without being added to it individually. Administrators are not listed because they always have full access."
 msgstr ""
 
 #: includes/language.php:207
-msgid "Delete"
+msgid "Name"
 msgstr ""
 
 #: includes/language.php:208
-msgid "Update group"
+msgid "Description"
 msgstr ""
 
 #: includes/language.php:209
-msgid "Add"
+#: includes/language.php:225
+msgid "Read access"
 msgstr ""
 
 #: includes/language.php:210
-msgid "Add user group"
+#: includes/language.php:227
+msgid "Write access"
 msgstr ""
 
 #: includes/language.php:211
-msgid "Edit user group"
+msgid "Delete"
 msgstr ""
 
 #: includes/language.php:212
-msgid "User group name"
+msgid "Update group"
 msgstr ""
 
 #: includes/language.php:213
-msgid "The name is used to identify the access user group."
+msgid "Add"
 msgstr ""
 
 #: includes/language.php:214
-msgid "User group description"
+msgid "Remove"
 msgstr ""
 
 #: includes/language.php:215
-msgid "The description of the group."
+msgid "Overwrite"
 msgstr ""
 
 #: includes/language.php:216
-#: includes/language.php:226
-msgid "IP range"
+msgid "\"Add\" assigns the selected groups in addition to the ones the content already has, \"Remove\" takes only the selected groups away, and \"Overwrite\" replaces all existing groups with the selection."
 msgstr ""
 
 #: includes/language.php:217
-msgid "Type in the IP ranges of users which are join these groups by their IP address without login. Set ranges like \"BEGIN\"-\"END\", separate ranges by using \";\", single IPs are also allowed. Example: 192.168.0.1-192.168.0.10;192.168.0.20-192.168.0.30"
+msgid "Add user group"
+msgstr ""
+
+#: includes/language.php:218
+msgid "Edit user group"
 msgstr ""
 
 #: includes/language.php:219
-msgid "The read access."
+msgid "User group name"
+msgstr ""
+
+#: includes/language.php:220
+msgid "The name is used to identify the access user group."
 msgstr ""
 
 #: includes/language.php:221
-msgid "The write access."
+msgid "User group description"
 msgstr ""
 
 #: includes/language.php:222
-msgid "Group was added successfully."
+msgid "The description of the group."
 msgstr ""
 
 #: includes/language.php:223
-msgid "Group name can not be empty."
+#: includes/language.php:233
+msgid "IP range"
 msgstr ""
 
 #: includes/language.php:224
-msgid "Group(s) was deleted successfully."
+msgid "Type in the IP ranges of users which are join these groups by their IP address without login. Set ranges like \"BEGIN\"-\"END\", separate ranges by using \";\", single IPs are also allowed. Example: 192.168.0.1-192.168.0.10;192.168.0.20-192.168.0.30"
 msgstr ""
 
-#: includes/language.php:225
-msgid "User group edit successfully."
-msgstr ""
-
-#: includes/language.php:227
-msgid "Default user groups"
+#: includes/language.php:226
+msgid "Controls who may see content locked by this group on the site. \"Only group users\" limits it to members of the group, \"All users\" makes the content readable by everyone."
 msgstr ""
 
 #: includes/language.php:228
-msgid "Default user groups for object type"
+msgid "Controls who may edit content locked by this group in the admin area. \"Only group users\" limits editing to members, \"All users\" allows everyone, \"None\" means this group never grants editing rights."
 msgstr ""
 
 #: includes/language.php:229
-msgid "Update default user groups"
+msgid "Group was added successfully."
 msgstr ""
 
 #: includes/language.php:230
-msgid "Default user groups updated"
+msgid "Group name can not be empty."
 msgstr ""
 
 #: includes/language.php:231
-msgid "Post Type"
+msgid "Group(s) was deleted successfully."
 msgstr ""
 
 #: includes/language.php:232
-msgid "Taxonomy"
+msgid "User group edit successfully."
+msgstr ""
+
+#: includes/language.php:234
+msgid "Default user groups"
+msgstr ""
+
+#: includes/language.php:235
+msgid "Default user groups for object type"
 msgstr ""
 
 #: includes/language.php:236
-msgid "Setup"
+msgid "Choose the object type whose default groups you want to edit. New content of that type is assigned the groups selected below."
 msgstr ""
 
 #: includes/language.php:237
-msgid "Danger Zone"
+msgid "Update default user groups"
 msgstr ""
 
 #: includes/language.php:238
-msgid "Reset User Access Manager"
+msgid "Default user groups updated"
 msgstr ""
 
 #: includes/language.php:239
-msgid "Type 'reset' in the input field to reset the User Access Manager."
+msgid "Post Type"
 msgstr ""
 
 #: includes/language.php:240
-msgid "Warning: The reset of the User Access Manager can not be undone. All settings and user groups will permanently lost."
-msgstr ""
-
-#: includes/language.php:241
-msgid "reset now"
-msgstr ""
-
-#: includes/language.php:242
-msgid "Update User Access Manager database"
-msgstr ""
-
-#: includes/language.php:243
-msgid "Updates the database of the User Access Manager. Please backup your database before you perform the update."
+msgid "Taxonomy"
 msgstr ""
 
 #: includes/language.php:244
-msgid "update now"
+msgid "Setup"
 msgstr ""
 
 #: includes/language.php:245
-msgid "User Access Manager was reset successfully"
+msgid "Danger Zone"
 msgstr ""
 
 #: includes/language.php:246
-msgid "User Access Manager database was updated successfully"
+msgid "Reset User Access Manager"
 msgstr ""
 
 #: includes/language.php:247
-msgid "Failure on User Access Manager database update"
+msgid "Type 'reset' in the input field to reset the User Access Manager."
 msgstr ""
 
 #: includes/language.php:248
-msgid "Update current blog"
+msgid "Warning: The reset of the User Access Manager can not be undone. All settings and user groups will permanently lost."
 msgstr ""
 
 #: includes/language.php:249
-msgid "Update network wide"
+msgid "reset now"
 msgstr ""
 
 #: includes/language.php:250
-msgid "Backup the uam database tables"
+msgid "Update User Access Manager database"
 msgstr ""
 
 #: includes/language.php:251
-msgid "Repair the database"
+msgid "Updates the database of the User Access Manager. Please backup your database before you perform the update."
 msgstr ""
 
 #: includes/language.php:252
-msgid "Try to repair the database."
+msgid "update now"
 msgstr ""
 
 #: includes/language.php:253
-msgid "repair now"
+msgid "User Access Manager was reset successfully"
 msgstr ""
 
 #: includes/language.php:254
-msgid "Database repair successfull"
+msgid "User Access Manager database was updated successfully"
 msgstr ""
 
 #: includes/language.php:255
-msgid "<b style=\"color:red;\">Your UAM database seems broken. You should try to repair it.</b>"
+msgid "Failure on User Access Manager database update"
 msgstr ""
 
 #: includes/language.php:256
-msgid "<b style=\"color:green;\">Your UAM database seems to be in good condition.</b>"
+msgid "Update current blog"
 msgstr ""
 
 #: includes/language.php:257
-msgid "Revert the database"
+msgid "Update network wide"
 msgstr ""
 
 #: includes/language.php:258
-msgid "Choose a backup to revert the database to this user access manager database version. <b>Note: The user access manager database version differs from the user access manager version.</b>"
+msgid "Backup the uam database tables"
 msgstr ""
 
 #: includes/language.php:259
-msgid "revert now"
+msgid "Repair the database"
 msgstr ""
 
 #: includes/language.php:260
-msgid "Revert successfull"
+msgid "Try to repair the database."
 msgstr ""
 
 #: includes/language.php:261
-msgid "Delete a database backup"
+msgid "repair now"
 msgstr ""
 
 #: includes/language.php:262
-msgid "Choose a backup to delete. <b>Note: That cannot be undone.</b>"
+msgid "Database repair successfull"
 msgstr ""
 
 #: includes/language.php:263
-msgid "delete now"
+msgid "Your UAM database seems broken. You should try to repair it."
 msgstr ""
 
 #: includes/language.php:264
-msgid "Backup deleted successfully"
+msgid "Your UAM database seems to be in good condition."
+msgstr ""
+
+#: includes/language.php:265
+msgid "Revert the database"
+msgstr ""
+
+#: includes/language.php:266
+msgid "Choose a backup to revert the database to this user access manager database version. <b>Note: The user access manager database version differs from the user access manager version.</b>"
+msgstr ""
+
+#: includes/language.php:267
+msgid "revert now"
 msgstr ""
 
 #: includes/language.php:268
-msgid "About"
+msgid "Revert successfull"
+msgstr ""
+
+#: includes/language.php:269
+msgid "Delete a database backup"
+msgstr ""
+
+#: includes/language.php:270
+msgid "Choose a backup to delete. <b>Note: That cannot be undone.</b>"
 msgstr ""
 
 #: includes/language.php:271
-msgid "How to support me?"
+msgid "delete now"
 msgstr ""
 
 #: includes/language.php:272
-msgid "Help me to improve the plugin"
-msgstr ""
-
-#: includes/language.php:273
-msgid "Send me bug reports, bug fixes, pull requests or your ideas. See: <a href=\"https://github.com/GM-Alex/user-access-manager\">https://github.com/GM-Alex/user-access-manager</a>"
-msgstr ""
-
-#: includes/language.php:274
-msgid "Create a translation of the plugin"
-msgstr ""
-
-#: includes/language.php:275
-msgid "Give other users more comfort help me to translate it to all languages. See: <a href=\"https://translate.wordpress.org/projects/wp-plugins/user-access-manager\">https://translate.wordpress.org/projects/wp-plugins/user-access-manager</a>"
+msgid "Backup deleted successfully"
 msgstr ""
 
 #: includes/language.php:276
-msgid "Donate via PayPal"
-msgstr ""
-
-#: includes/language.php:277
-msgid "Support me on Steady"
-msgstr ""
-
-#: includes/language.php:278
-msgid "Spread the word"
+msgid "About"
 msgstr ""
 
 #: includes/language.php:279
-msgid "Write about the plugin and place a link to the plugin in your blog/website."
+msgid "How to support me?"
+msgstr ""
+
+#: includes/language.php:280
+msgid "Help me to improve the plugin"
+msgstr ""
+
+#: includes/language.php:281
+msgid "Send me bug reports, bug fixes, pull requests or your ideas. See: <a href=\"https://github.com/GM-Alex/user-access-manager\">https://github.com/GM-Alex/user-access-manager</a>"
 msgstr ""
 
 #: includes/language.php:282
-msgid "Thanks"
+msgid "Create a translation of the plugin"
 msgstr ""
 
 #: includes/language.php:283
-msgid "Be the first one supporting me on steady!"
+msgid "Give other users more comfort help me to translate it to all languages. See: <a href=\"https://translate.wordpress.org/projects/wp-plugins/user-access-manager\">https://translate.wordpress.org/projects/wp-plugins/user-access-manager</a>"
 msgstr ""
 
 #: includes/language.php:284
-msgid "Top supporters"
+msgid "Donate via PayPal"
 msgstr ""
 
 #: includes/language.php:285
-msgid "Supporters"
+msgid "Support me on Steady"
 msgstr ""
 
 #: includes/language.php:286
-msgid "Special thanks"
+msgid "Spread the word"
 msgstr ""
 
 #: includes/language.php:287
-msgid "My wife for giving me the time to develop this plugin"
+msgid "Write about the plugin and place a link to the plugin in your blog/website."
 msgstr ""
 
-#: includes/language.php:288
-msgid "All testers and all others I forgot"
+#: includes/language.php:290
+msgid "Thanks"
+msgstr ""
+
+#: includes/language.php:291
+msgid "Be the first one supporting me on steady!"
 msgstr ""
 
 #: includes/language.php:292
-msgid "Access"
+msgid "Top supporters"
 msgstr ""
 
 #: includes/language.php:293
+msgid "Supporters"
+msgstr ""
+
+#: includes/language.php:294
+msgid "Special thanks"
+msgstr ""
+
+#: includes/language.php:295
+msgid "My wife for giving me the time to develop this plugin"
+msgstr ""
+
+#: includes/language.php:296
+msgid "All testers and all others I forgot"
+msgstr ""
+
+#: includes/language.php:300
+msgid "Access"
+msgstr ""
+
+#: includes/language.php:301
 msgid "UAM User Groups"
 msgstr ""
 
-#: includes/language.php:297
+#: includes/language.php:305
 msgid "Full access"
 msgstr ""
 
-#: includes/language.php:298
+#: includes/language.php:306
 #, php-format
 msgid "Member of %s other user groups"
 msgstr ""
 
-#: includes/language.php:299
+#: includes/language.php:307
 msgid "<strong>Note:</strong> An administrator has always access to all posts/pages."
 msgstr ""
 
-#: includes/language.php:300
+#: includes/language.php:308
 msgid "Please create a user group first."
 msgstr ""
 
-#: includes/language.php:301
+#: includes/language.php:309
 msgid "No user group available."
 msgstr ""
 
-#: includes/language.php:302
+#: includes/language.php:310
 msgid "No rights"
 msgstr ""
 
-#: includes/language.php:303
+#: includes/language.php:311
 msgid "You have no rights to access this content."
 msgstr ""
 
-#: includes/language.php:304
+#: includes/language.php:312
 msgid "User Groups"
 msgstr ""
 
-#: includes/language.php:305
+#: includes/language.php:313
 msgid "Set up user groups"
 msgstr ""
 
-#: includes/language.php:306
+#: includes/language.php:314
 msgid "Nonce error"
 msgstr ""
 
-#: includes/language.php:307
+#: includes/language.php:315
 msgid "Sorry, your nonce did not verify."
 msgstr ""
 
-#: includes/language.php:310
+#: includes/language.php:318
 msgid "Info"
 msgstr ""
 
-#: includes/language.php:311
+#: includes/language.php:319
 msgid "Group info"
 msgstr ""
 
-#: includes/language.php:312
+#: includes/language.php:320
 #, php-format
 msgid "Group membership given by %s"
 msgstr ""
 
-#: includes/language.php:313
+#: includes/language.php:321
 msgid "Assigned groups"
 msgstr ""
 
-#: includes/language.php:314
-#: includes/language.php:348
+#: includes/language.php:322
+#: includes/language.php:358
 msgid "Role"
 msgstr ""
 
-#: includes/language.php:315
-#: includes/language.php:347
+#: includes/language.php:323
+#: includes/language.php:357
 msgid "User"
 msgstr ""
 
-#: includes/language.php:316
+#: includes/language.php:324
 msgid "Term"
 msgstr ""
 
-#: includes/language.php:317
+#: includes/language.php:325
 msgid "Post"
 msgstr ""
 
-#: includes/language.php:321
+#: includes/language.php:329
 msgid "Opening file info database failed."
 msgstr ""
 
-#: includes/language.php:322
+#: includes/language.php:330
 msgid "Error: File not found."
 msgstr ""
 
-#: includes/language.php:323
+#: includes/language.php:331
 msgid "The file you are looking for wasn't found."
 msgstr ""
 
-#: includes/language.php:327
+#: includes/language.php:335
 msgid "Username"
 msgstr ""
 
-#: includes/language.php:328
+#: includes/language.php:336
 msgid "Password"
 msgstr ""
 
-#: includes/language.php:329
+#: includes/language.php:337
 msgid "Login"
 msgstr ""
 
-#: includes/language.php:330
+#: includes/language.php:338
 msgid "Logout"
 msgstr ""
 
-#: includes/language.php:331
+#: includes/language.php:339
 #, php-format
 msgid "Welcome, %s!"
 msgstr ""
 
-#: includes/language.php:332
+#: includes/language.php:340
 msgid "Register"
 msgstr ""
 
-#: includes/language.php:333
+#: includes/language.php:341
 msgid "Lost your password?"
 msgstr ""
 
-#: includes/language.php:334
+#: includes/language.php:342
 msgid "Password Lost and Found"
 msgstr ""
 
-#: includes/language.php:335
+#: includes/language.php:343
 msgid "Remember me"
 msgstr ""
 
-#: includes/language.php:339
+#: includes/language.php:347
 msgid "Setup time based group assignment"
 msgstr ""
 
-#: includes/language.php:340
-#: includes/language.php:342
-msgid "From"
-msgstr ""
-
-#: includes/language.php:341
-#: includes/language.php:343
-msgid "To"
+#: includes/language.php:348
+msgid "Remove time based assignment"
 msgstr ""
 
 #: includes/language.php:349
-msgid "Not logged in users"
+#: includes/language.php:352
+msgid "From"
 msgstr ""
 
 #: includes/language.php:350
-msgid "Add dynamic groups"
-msgstr ""
-
 #: includes/language.php:353
-msgid "UAM login widget"
+msgid "To"
 msgstr ""
 
-#: includes/language.php:354
-msgid "User Access Manager login widget for users."
-msgstr ""
-
-#: includes/language.php:357
-msgid "Get User Access Manager Pro!"
-msgstr ""
-
-#: includes/language.php:358
-msgid "You want all the features? Guess what? You are already using the Pro version, because there is none. So it would be nice if you support me and become a supporter at steady, <b>especially if you use the plugin on a commercial site</b>. This will keep me motivated to do the support and spend my free time for the plugin. ;)"
+#: includes/language.php:351
+msgid "Optional. A time span counted from the moment the content is created, in the format days-hours:minutes:seconds. Leave both fields empty to assign the group permanently."
 msgstr ""
 
 #: includes/language.php:359
-msgid "Need help?"
+msgid "Not logged in users"
 msgstr ""
 
 #: includes/language.php:360
+msgid "Add dynamic groups"
+msgstr ""
+
+#: includes/language.php:361
+msgid "Search for a user or a role…"
+msgstr ""
+
+#: includes/language.php:362
+msgid "Start typing to assign a single user or a whole role to this content, without creating a user group for them first. At least two characters are needed."
+msgstr ""
+
+#: includes/language.php:365
+msgid "UAM login widget"
+msgstr ""
+
+#: includes/language.php:366
+msgid "User Access Manager login widget for users."
+msgstr ""
+
+#: includes/language.php:369
+msgid "Get User Access Manager Pro!"
+msgstr ""
+
+#: includes/language.php:370
+msgid "You want all the features? Guess what? You are already using the Pro version, because there is none. So it would be nice if you support me and become a supporter at steady, <b>especially if you use the plugin on a commercial site</b>. This will keep me motivated to do the support and spend my free time for the plugin. ;)"
+msgstr ""
+
+#: includes/language.php:371
+msgid "Need help?"
+msgstr ""
+
+#: includes/language.php:372
 msgid "You got stuck using the User access manager? See <a href=\"https://github.com/GM-Alex/user-access-manager/wiki\">https://github.com/GM-Alex/user-access-manager/wiki</a>"
 msgstr ""
